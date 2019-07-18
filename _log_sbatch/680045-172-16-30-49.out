@@ -1,0 +1,10 @@
+         
+********************************************************************
+Job Name:r_p_q,Job ID:680045,Allocate Nodes:172-16-30-49
+********************************************************************
+
+
+Traceback (most recent call last):
+  File "main3.py", line 284, in <module>
+    origin = sys.stdout
+NameError: name 'sys' is not defined

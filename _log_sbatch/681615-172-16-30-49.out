@@ -1,0 +1,64 @@
+         
+********************************************************************
+Job Name:r_7cl,Job ID:681615,Allocate Nodes:172-16-30-49
+********************************************************************
+
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 992, in emit
+    msg = self.format(record)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 838, in format
+    return fmt.format(record)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 575, in format
+    record.message = record.getMessage()
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main3.py", line 298, in <module>
+    train_cnn_model('pnasnet5large_7class', gpu_ids, batch_size)
+  File "main3.py", line 258, in train_cnn_model
+    logging.debug("Let's use ", len(gpu_ids), " GPUs!")
+Message: "Let's use "
+Arguments: (8, ' GPUs!')
+Traceback (most recent call last):
+  File "main3.py", line 298, in <module>
+    train_cnn_model('pnasnet5large_7class', gpu_ids, batch_size)
+  File "main3.py", line 267, in train_cnn_model
+    device, lr=0.0001, save_path=save_path, n_ep=50, num_classes=num_classes)
+  File "main3.py", line 167, in do_train
+    logits = model(x)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 152, in forward
+    outputs = self.parallel_apply(replicas, inputs, kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 162, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 83, in parallel_apply
+    raise output
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 59, in _worker
+    output = module(*input, **kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/pretrainedmodels/models/pnasnet.py", line 367, in forward
+    x = self.features(input)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/pretrainedmodels/models/pnasnet.py", line 342, in features
+    x_stem_0 = self.cell_stem_0(x_conv_0)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/pretrainedmodels/models/pnasnet.py", line 222, in forward
+    x_out = self.cell_forward(x_left, x_right)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/pretrainedmodels/models/pnasnet.py", line 160, in cell_forward
+    x_comb_iter_2_left = self.comb_iter_2_left(x_right)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/pretrainedmodels/models/pnasnet.py", line 96, in forward
+    x = self.bn_sep_2(x)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/module.py", line 493, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/batchnorm.py", line 83, in forward
+    exponential_average_factor, self.eps)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/functional.py", line 1697, in batch_norm
+    training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: CUDA out of memory. Tried to allocate 12.00 MiB (GPU 0; 11.90 GiB total capacity; 10.80 GiB already allocated; 4.94 MiB free; 510.71 MiB cached)

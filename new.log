@@ -1,0 +1,47 @@
+2019-05-07 19:39:55,836 - main3.py[line:228] - DEBUG: loading data for train densenet121 ....
+2019-05-07 19:40:16,758 - main3.py[line:228] - DEBUG: loading data for train densenet121 ....
+2019-05-07 19:40:21,951 - main3.py[line:246] - DEBUG: start training cnn model.....
+it will take several hours, or even dozens of....
+2019-05-07 19:42:35,967 - main3.py[line:228] - DEBUG: loading data for train densenet121 ....
+2019-05-07 19:42:39,457 - main3.py[line:246] - DEBUG: start training cnn model.....
+it will take several hours, or even dozens of....
+2019-05-07 19:53:54,594 - main3.py[line:189] - DEBUG: Epoch : 0  val_acc : 51.64006% ||| train_loss : 3.03300  val_loss : 1.95184  |||
+2019-05-07 20:03:49,185 - main3.py[line:189] - DEBUG: Epoch : 1  val_acc : 60.97726% ||| train_loss : 1.71464  val_loss : 1.45503  |||
+2019-05-07 20:13:37,071 - main3.py[line:189] - DEBUG: Epoch : 2  val_acc : 64.95404% ||| train_loss : 1.35685  val_loss : 1.27186  |||
+2019-05-07 20:23:33,665 - main3.py[line:189] - DEBUG: Epoch : 3  val_acc : 66.62796% ||| train_loss : 1.17506  val_loss : 1.21325  |||
+2019-05-07 20:33:17,195 - main3.py[line:189] - DEBUG: Epoch : 4  val_acc : 68.21480% ||| train_loss : 1.04392  val_loss : 1.15749  |||
+2019-05-07 20:43:14,499 - main3.py[line:189] - DEBUG: Epoch : 5  val_acc : 68.63087% ||| train_loss : 0.94472  val_loss : 1.14203  |||
+2019-05-07 20:52:58,994 - main3.py[line:189] - DEBUG: Epoch : 6  val_acc : 69.21142% ||| train_loss : 0.85104  val_loss : 1.11787  |||
+2019-05-07 21:03:15,646 - main3.py[line:189] - DEBUG: Epoch : 7  val_acc : 69.46299% ||| train_loss : 0.77329  val_loss : 1.12509  |||
+2019-05-07 21:13:05,836 - main3.py[line:189] - DEBUG: Epoch : 8  val_acc : 69.59845% ||| train_loss : 0.70604  val_loss : 1.11072  |||
+2019-05-07 21:23:01,198 - main3.py[line:189] - DEBUG: Epoch : 9  val_acc : 69.80164% ||| train_loss : 0.63984  val_loss : 1.13609  |||
+2019-05-07 21:33:05,263 - main3.py[line:189] - DEBUG: Epoch : 10  val_acc : 69.65651% ||| train_loss : 0.57897  val_loss : 1.15282  |||
+2019-05-07 21:42:59,527 - main3.py[line:189] - DEBUG: Epoch : 11  val_acc : 69.80164% ||| train_loss : 0.52446  val_loss : 1.15243  |||
+2019-05-07 21:53:15,676 - main3.py[line:189] - DEBUG: Epoch : 12  val_acc : 71.10789% ||| train_loss : 0.40716  val_loss : 1.11810  |||
+2019-05-07 22:03:11,480 - main3.py[line:189] - DEBUG: Epoch : 13  val_acc : 71.16594% ||| train_loss : 0.38187  val_loss : 1.11135  |||
+2019-05-07 22:13:01,478 - main3.py[line:189] - DEBUG: Epoch : 14  val_acc : 70.80793% ||| train_loss : 0.36928  val_loss : 1.10207  |||
+2019-05-07 22:23:17,452 - main3.py[line:189] - DEBUG: Epoch : 15  val_acc : 70.58539% ||| train_loss : 0.35635  val_loss : 1.13311  |||
+2019-05-07 22:33:23,235 - main3.py[line:189] - DEBUG: Epoch : 16  val_acc : 70.94340% ||| train_loss : 0.34399  val_loss : 1.12816  |||
+2019-05-07 22:43:26,920 - main3.py[line:189] - DEBUG: Epoch : 17  val_acc : 70.84664% ||| train_loss : 0.33699  val_loss : 1.13015  |||
+2019-05-07 22:53:14,580 - main3.py[line:189] - DEBUG: Epoch : 18  val_acc : 70.99178% ||| train_loss : 0.32811  val_loss : 1.15947  |||
+2019-05-07 23:02:48,412 - main3.py[line:189] - DEBUG: Epoch : 19  val_acc : 70.95307% ||| train_loss : 0.32423  val_loss : 1.14144  |||
+2019-05-07 23:12:41,052 - main3.py[line:189] - DEBUG: Epoch : 20  val_acc : 70.89502% ||| train_loss : 0.31886  val_loss : 1.13908  |||
+2019-05-07 23:22:36,049 - main3.py[line:189] - DEBUG: Epoch : 21  val_acc : 71.02080% ||| train_loss : 0.31761  val_loss : 1.12682  |||
+2019-05-07 23:32:59,516 - main3.py[line:189] - DEBUG: Epoch : 22  val_acc : 70.86599% ||| train_loss : 0.32156  val_loss : 1.14755  |||
+2019-05-07 23:42:51,889 - main3.py[line:189] - DEBUG: Epoch : 23  val_acc : 71.00145% ||| train_loss : 0.31873  val_loss : 1.12494  |||
+2019-05-07 23:52:39,967 - main3.py[line:189] - DEBUG: Epoch : 24  val_acc : 71.41751% ||| train_loss : 0.31851  val_loss : 1.13900  |||
+2019-05-08 00:02:54,018 - main3.py[line:189] - DEBUG: Epoch : 25  val_acc : 70.74020% ||| train_loss : 0.31740  val_loss : 1.14161  |||
+2019-05-08 00:12:28,825 - main3.py[line:189] - DEBUG: Epoch : 26  val_acc : 70.96275% ||| train_loss : 0.32487  val_loss : 1.12984  |||
+2019-05-08 00:22:01,786 - main3.py[line:189] - DEBUG: Epoch : 27  val_acc : 71.08853% ||| train_loss : 0.32136  val_loss : 1.12716  |||
+2019-05-08 00:31:59,635 - main3.py[line:189] - DEBUG: Epoch : 28  val_acc : 71.19497% ||| train_loss : 0.31896  val_loss : 1.15274  |||
+2019-05-08 00:41:54,370 - main3.py[line:189] - DEBUG: Epoch : 29  val_acc : 71.01113% ||| train_loss : 0.31590  val_loss : 1.12733  |||
+2019-05-08 00:52:07,962 - main3.py[line:189] - DEBUG: Epoch : 30  val_acc : 71.29173% ||| train_loss : 0.31661  val_loss : 1.13677  |||
+2019-05-08 01:02:26,288 - main3.py[line:189] - DEBUG: Epoch : 31  val_acc : 71.07886% ||| train_loss : 0.32018  val_loss : 1.12412  |||
+2019-05-08 01:12:32,151 - main3.py[line:189] - DEBUG: Epoch : 32  val_acc : 71.25302% ||| train_loss : 0.31918  val_loss : 1.14844  |||
+2019-05-08 01:22:50,173 - main3.py[line:189] - DEBUG: Epoch : 33  val_acc : 70.91437% ||| train_loss : 0.31830  val_loss : 1.14168  |||
+2019-05-08 01:32:46,182 - main3.py[line:189] - DEBUG: Epoch : 34  val_acc : 71.20464% ||| train_loss : 0.31838  val_loss : 1.14528  |||
+2019-05-08 01:42:55,767 - main3.py[line:189] - DEBUG: Epoch : 35  val_acc : 71.32075% ||| train_loss : 0.32278  val_loss : 1.13534  |||
+2019-05-08 01:52:45,423 - main3.py[line:189] - DEBUG: Epoch : 36  val_acc : 71.02080% ||| train_loss : 0.31993  val_loss : 1.13064  |||
+2019-05-08 02:02:42,817 - main3.py[line:189] - DEBUG: Epoch : 37  val_acc : 71.11756% ||| train_loss : 0.31550  val_loss : 1.13302  |||
+2019-05-08 02:12:14,415 - main3.py[line:189] - DEBUG: Epoch : 38  val_acc : 70.79826% ||| train_loss : 0.32074  val_loss : 1.13770  |||
+2019-05-08 02:22:27,754 - main3.py[line:189] - DEBUG: Epoch : 39  val_acc : 71.22400% ||| train_loss : 0.32000  val_loss : 1.15372  |||

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "main.py", line 320, in <module>
+    train_cnn_model('pnasnet5large_class3', gpu_ids, batch_size)
+  File "main.py", line 268, in train_cnn_model
+    img_size = model.input_size[0]
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/torch/nn/modules/module.py", line 539, in __getattr__
+    type(self).__name__, name))
+AttributeError: 'PNASNet5Large' object has no attribute 'input_size'

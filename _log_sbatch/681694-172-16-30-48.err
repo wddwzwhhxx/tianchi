@@ -1,0 +1,2 @@
+tee: ./log/20190513-10.41.04.train.log: No such file or directory
+slurmstepd: error: *** JOB 681694 ON 172-16-30-48 CANCELLED AT 2019-05-13T12:00:03 ***

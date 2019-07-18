@@ -1,0 +1,24 @@
+         
+********************************************************************
+Job Name:r_f_s,Job ID:681078,Allocate Nodes:172-16-30-59
+********************************************************************
+
+
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 992, in emit
+    msg = self.format(record)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 838, in format
+    return fmt.format(record)
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 575, in format
+    record.message = record.getMessage()
+  File "/home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/logging/__init__.py", line 338, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "main3.py", line 292, in <module>
+    train_cnn_model('pnasnet5large_fine2', gpu_ids, batch_size)
+  File "main3.py", line 252, in train_cnn_model
+    logging.debug("Let's use ", len(gpu_ids), " GPUs!")
+Message: "Let's use "
+Arguments: (2, ' GPUs!')

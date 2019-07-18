@@ -1,0 +1,34 @@
+         
+********************************************************************
+Job Name:ryf_101,Job ID:677940,Allocate Nodes:172-16-30-45
+********************************************************************
+
+
+Traceback (most recent call last):
+  File "/home/opt/site-packages/numpy/core/__init__.py", line 16, in <module>
+    from . import multiarray
+ImportError: /home/opt/site-packages/numpy/core/multiarray.so: undefined symbol: _Py_ZeroStruct
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "main3.py", line 5, in <module>
+    import numpy as np
+  File "/home/opt/site-packages/numpy/__init__.py", line 142, in <module>
+    from . import add_newdocs
+  File "/home/opt/site-packages/numpy/add_newdocs.py", line 13, in <module>
+    from numpy.lib import add_newdoc
+  File "/home/opt/site-packages/numpy/lib/__init__.py", line 8, in <module>
+    from .type_check import *
+  File "/home/opt/site-packages/numpy/lib/type_check.py", line 11, in <module>
+    import numpy.core.numeric as _nx
+  File "/home/opt/site-packages/numpy/core/__init__.py", line 26, in <module>
+    raise ImportError(msg)
+ImportError: 
+Importing the multiarray numpy extension module failed.  Most
+likely you are trying to import a failed build of numpy.
+If you're working with a numpy git repo, try `git clean -xdf` (removes all
+files not under version control).  Otherwise reinstall numpy.
+
+Original error was: /home/opt/site-packages/numpy/core/multiarray.so: undefined symbol: _Py_ZeroStruct
+

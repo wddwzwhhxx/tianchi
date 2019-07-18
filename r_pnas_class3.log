@@ -1,0 +1,74 @@
+2019-05-14 15:44:37,008 - main.py[line:265] - DEBUG: loading data for train pnasnet5large_class3 ....
+2019-05-14 15:44:45,633 - main.py[line:287] - DEBUG: start training cnn model.....
+it will take several hours, or even dozens of....
+2019-05-14 15:44:45,637 - /home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/visdom/__init__.py[line:436] - WARNING: Setting up a new session...
+2019-05-14 15:44:45,649 - /home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/visdom/__init__.py[line:489] - INFO: Socket refused connection, running socketless
+2019-05-14 15:44:45,649 - /home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/visdom/__init__.py[line:491] - ERROR: [Errno 111] Connection refused
+2019-05-14 16:12:40,455 - main.py[line:223] - DEBUG: Epoch : 0  val_acc : 23.35548% ||| train_loss : 3.23045  val_loss : 2.66953  |||
+2019-05-14 16:40:40,390 - main.py[line:223] - DEBUG: Epoch : 1  val_acc : 38.50498% ||| train_loss : 2.74118  val_loss : 2.09960  |||
+2019-05-14 17:09:24,352 - main.py[line:223] - DEBUG: Epoch : 2  val_acc : 42.69103% ||| train_loss : 2.51898  val_loss : 1.93138  |||
+2019-05-14 17:37:02,525 - main.py[line:223] - DEBUG: Epoch : 3  val_acc : 46.14618% ||| train_loss : 2.27610  val_loss : 1.76331  |||
+2019-05-14 18:06:02,334 - main.py[line:223] - DEBUG: Epoch : 4  val_acc : 45.54817% ||| train_loss : 2.17305  val_loss : 1.81252  |||
+2019-05-14 18:34:27,574 - main.py[line:223] - DEBUG: Epoch : 5  val_acc : 49.10299% ||| train_loss : 2.02864  val_loss : 1.62621  |||
+2019-05-14 19:03:29,160 - main.py[line:223] - DEBUG: Epoch : 6  val_acc : 51.02990% ||| train_loss : 1.93756  val_loss : 1.61198  |||
+2019-05-14 19:31:37,512 - main.py[line:223] - DEBUG: Epoch : 7  val_acc : 49.60133% ||| train_loss : 1.81762  val_loss : 1.69400  |||
+2019-05-14 19:59:54,803 - main.py[line:223] - DEBUG: Epoch : 8  val_acc : 51.89369% ||| train_loss : 1.75140  val_loss : 1.58268  |||
+2019-05-14 20:28:38,501 - main.py[line:223] - DEBUG: Epoch : 9  val_acc : 53.42193% ||| train_loss : 1.67201  val_loss : 1.52150  |||
+2019-05-14 20:57:12,783 - main.py[line:223] - DEBUG: Epoch : 10  val_acc : 52.85714% ||| train_loss : 1.62934  val_loss : 1.62778  |||
+2019-05-14 21:25:48,814 - main.py[line:223] - DEBUG: Epoch : 11  val_acc : 55.14950% ||| train_loss : 1.58472  val_loss : 1.47319  |||
+2019-05-14 21:54:55,333 - main.py[line:223] - DEBUG: Epoch : 12  val_acc : 55.98007% ||| train_loss : 1.53890  val_loss : 1.47058  |||
+2019-05-14 22:22:48,785 - main.py[line:223] - DEBUG: Epoch : 13  val_acc : 55.51495% ||| train_loss : 1.45910  val_loss : 1.48768  |||
+2019-05-14 22:51:30,269 - main.py[line:223] - DEBUG: Epoch : 14  val_acc : 56.91030% ||| train_loss : 1.44747  val_loss : 1.42247  |||
+2019-05-14 23:20:21,290 - main.py[line:223] - DEBUG: Epoch : 15  val_acc : 56.97674% ||| train_loss : 1.39940  val_loss : 1.44597  |||
+2019-05-14 23:48:36,802 - main.py[line:223] - DEBUG: Epoch : 16  val_acc : 55.58140% ||| train_loss : 1.35458  val_loss : 1.52679  |||
+2019-05-15 00:17:19,446 - main.py[line:223] - DEBUG: Epoch : 17  val_acc : 57.07641% ||| train_loss : 1.31531  val_loss : 1.45049  |||
+2019-05-15 00:45:18,970 - main.py[line:223] - DEBUG: Epoch : 18  val_acc : 55.81395% ||| train_loss : 1.24855  val_loss : 1.51501  |||
+2019-05-15 01:13:39,652 - main.py[line:223] - DEBUG: Epoch : 19  val_acc : 57.20930% ||| train_loss : 1.23957  val_loss : 1.45246  |||
+2019-05-15 01:41:57,721 - main.py[line:223] - DEBUG: Epoch : 20  val_acc : 54.78405% ||| train_loss : 1.22272  val_loss : 1.54829  |||
+2019-05-15 02:10:04,086 - main.py[line:223] - DEBUG: Epoch : 21  val_acc : 58.57143% ||| train_loss : 1.22547  val_loss : 1.40956  |||
+2019-05-15 02:39:00,754 - main.py[line:223] - DEBUG: Epoch : 22  val_acc : 58.10631% ||| train_loss : 1.22307  val_loss : 1.40790  |||
+2019-05-15 03:07:23,296 - main.py[line:223] - DEBUG: Epoch : 23  val_acc : 59.13621% ||| train_loss : 1.22518  val_loss : 1.37778  |||
+2019-05-15 03:36:31,749 - main.py[line:223] - DEBUG: Epoch : 24  val_acc : 57.94020% ||| train_loss : 1.23447  val_loss : 1.44714  |||
+2019-05-15 04:04:41,389 - main.py[line:223] - DEBUG: Epoch : 25  val_acc : 58.40532% ||| train_loss : 1.22207  val_loss : 1.39408  |||
+2019-05-15 04:33:39,646 - main.py[line:223] - DEBUG: Epoch : 26  val_acc : 59.13621% ||| train_loss : 1.24283  val_loss : 1.40254  |||
+2019-05-15 05:02:12,877 - main.py[line:223] - DEBUG: Epoch : 27  val_acc : 55.88040% ||| train_loss : 1.22963  val_loss : 1.54058  |||
+2019-05-15 05:30:46,230 - main.py[line:223] - DEBUG: Epoch : 28  val_acc : 56.77741% ||| train_loss : 1.21369  val_loss : 1.46215  |||
+2019-05-15 05:59:44,340 - main.py[line:223] - DEBUG: Epoch : 29  val_acc : 57.24252% ||| train_loss : 1.22970  val_loss : 1.47727  |||
+2019-05-26 22:21:03,529 - main.py[line:265] - DEBUG: loading data for train pnasnet5large_class3 ....
+2019-05-26 22:22:16,928 - main.py[line:265] - DEBUG: loading data for train pnasnet5large_class3 ....
+2019-05-26 22:22:23,080 - main.py[line:287] - DEBUG: start training cnn model.....
+it will take several hours, or even dozens of....
+2019-05-26 22:22:23,085 - /home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/visdom/__init__.py[line:436] - WARNING: Setting up a new session...
+2019-05-26 22:22:23,297 - /home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/visdom/__init__.py[line:489] - INFO: Socket refused connection, running socketless
+2019-05-26 22:22:23,297 - /home/wangzhaowei/anaconda3/envs/rongyf/lib/python3.6/site-packages/visdom/__init__.py[line:491] - ERROR: [Errno 111] Connection refused
+2019-05-26 22:24:07,548 - main.py[line:265] - DEBUG: loading data for train pnasnet5large_class3 ....
+2019-05-26 22:24:12,806 - main.py[line:287] - DEBUG: start training cnn model.....
+it will take several hours, or even dozens of....
+2019-05-26 22:25:46,526 - main.py[line:265] - DEBUG: loading data for train pnasnet5large_class3 ....
+2019-05-26 22:25:53,832 - main.py[line:287] - DEBUG: start training cnn model.....
+it will take several hours, or even dozens of....
+2019-05-26 22:55:02,201 - main.py[line:223] - DEBUG: Epoch : 0  val_acc : 3.65449% ||| train_loss : 3.45430  val_loss : 3.48093  |||
+2019-05-26 23:24:01,770 - main.py[line:223] - DEBUG: Epoch : 1  val_acc : 4.21927% ||| train_loss : 3.40660  val_loss : 3.57317  |||
+2019-05-26 23:52:54,682 - main.py[line:223] - DEBUG: Epoch : 2  val_acc : 5.24917% ||| train_loss : 3.38770  val_loss : 3.36844  |||
+2019-05-27 00:21:51,233 - main.py[line:223] - DEBUG: Epoch : 3  val_acc : 5.01661% ||| train_loss : 3.36962  val_loss : 3.38957  |||
+2019-05-27 00:51:02,359 - main.py[line:223] - DEBUG: Epoch : 4  val_acc : 4.35216% ||| train_loss : 3.35215  val_loss : 3.66350  |||
+2019-05-27 01:19:37,414 - main.py[line:223] - DEBUG: Epoch : 5  val_acc : 4.55150% ||| train_loss : 3.33035  val_loss : 3.65790  |||
+2019-05-27 01:48:11,994 - main.py[line:223] - DEBUG: Epoch : 6  val_acc : 5.54817% ||| train_loss : 3.31638  val_loss : 3.46852  |||
+2019-05-27 02:17:44,791 - main.py[line:223] - DEBUG: Epoch : 7  val_acc : 7.34219% ||| train_loss : 3.31182  val_loss : 3.32437  |||
+2019-05-27 02:46:16,009 - main.py[line:223] - DEBUG: Epoch : 8  val_acc : 6.21262% ||| train_loss : 3.30085  val_loss : 3.36930  |||
+2019-05-27 03:14:55,181 - main.py[line:223] - DEBUG: Epoch : 9  val_acc : 6.94352% ||| train_loss : 3.30233  val_loss : 3.36104  |||
+2019-05-27 03:43:30,383 - main.py[line:223] - DEBUG: Epoch : 10  val_acc : 4.71761% ||| train_loss : 3.30239  val_loss : 3.69236  |||
+2019-05-27 04:13:12,539 - main.py[line:223] - DEBUG: Epoch : 11  val_acc : 6.31229% ||| train_loss : 3.30367  val_loss : 3.60880  |||
+2019-05-27 04:42:19,614 - main.py[line:223] - DEBUG: Epoch : 12  val_acc : 5.54817% ||| train_loss : 3.30290  val_loss : 3.58522  |||
+2019-05-27 05:11:10,349 - main.py[line:223] - DEBUG: Epoch : 13  val_acc : 6.67774% ||| train_loss : 3.29847  val_loss : 3.32514  |||
+2019-05-27 05:39:19,601 - main.py[line:223] - DEBUG: Epoch : 14  val_acc : 7.50831% ||| train_loss : 3.29790  val_loss : 3.26626  |||
+2019-05-27 06:07:52,374 - main.py[line:223] - DEBUG: Epoch : 15  val_acc : 6.24585% ||| train_loss : 3.29485  val_loss : 3.37367  |||
+2019-05-27 06:36:16,399 - main.py[line:223] - DEBUG: Epoch : 16  val_acc : 5.68106% ||| train_loss : 3.29712  val_loss : 3.52719  |||
+2019-05-27 07:04:48,871 - main.py[line:223] - DEBUG: Epoch : 17  val_acc : 6.07973% ||| train_loss : 3.29594  val_loss : 3.44160  |||
+2019-05-27 07:33:35,493 - main.py[line:223] - DEBUG: Epoch : 18  val_acc : 5.48173% ||| train_loss : 3.29721  val_loss : 3.61179  |||
+2019-05-27 08:02:44,790 - main.py[line:223] - DEBUG: Epoch : 19  val_acc : 5.28239% ||| train_loss : 3.29749  val_loss : 3.56680  |||
+2019-05-27 08:31:34,653 - main.py[line:223] - DEBUG: Epoch : 20  val_acc : 5.58140% ||| train_loss : 3.29592  val_loss : 3.46819  |||
+2019-05-27 09:00:08,594 - main.py[line:223] - DEBUG: Epoch : 21  val_acc : 6.11296% ||| train_loss : 3.29829  val_loss : 3.42931  |||
+2019-05-27 09:28:45,705 - main.py[line:223] - DEBUG: Epoch : 22  val_acc : 7.24252% ||| train_loss : 3.29824  val_loss : 3.26229  |||
+2019-05-27 09:57:42,682 - main.py[line:223] - DEBUG: Epoch : 23  val_acc : 6.44518% ||| train_loss : 3.29868  val_loss : 3.40229  |||
+2019-05-27 10:26:15,335 - main.py[line:223] - DEBUG: Epoch : 24  val_acc : 6.14618% ||| train_loss : 3.30138  val_loss : 3.37422  |||
